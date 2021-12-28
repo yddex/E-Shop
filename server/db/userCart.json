@@ -1,0 +1,14 @@
+{
+    "amount": 350,
+    "countGoods": 1,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "X-Box Series X",
+            "price": 350,
+            "product_img": "457.jpg",
+            "type": "gameconsol"
+        }
+    ]
+}

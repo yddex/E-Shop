@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="wrapper">
+            <header class="header center">
+                <div class="header__left">
+                    <div class="logo"><a href="index.html"><span class="e-color">E</span>-shop</a></div>
+                    <filter-el></filter-el>
+
+                </div>
+                <div class="cart">
+                    <!-- <button class="btn-cart" type="button" @click="$refs.cart.showCart = !$refs.cart.showCart">Корзина</button> -->
+                    <div @click="$refs.cart.showCart = !$refs.cart.showCart"><i
+                            class="fas fa-shopping-basket btn-cart-icon"></i></div>
+                    <cart ref="cart"></cart>
+                </div>
+            </header>
+            <navigation ref="nav"></navigation>
+            <main class="main center">
+                <error ref="error"></error>
+                <products ref="products"></products>
+            </main>
+        </div>
+        <footer class="footer center">
+            <div class="footer__left">
+                <div class="logo"><a href="index.html"><span class="e-color">E</span>-shop</a></div>
+            </div>
+            <div class="footer__rigth">
+                <div class="copy">&copy; {{new Date().getFullYear()}}</div>
+            </div>
+        </footer>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="dist/build.js"></script>
+</body>
+
+</html>

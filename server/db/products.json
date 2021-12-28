@@ -1,0 +1,122 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "Клавиатура Razer",
+    "price": 30,
+    "product_img": "124.jpg",
+    "type": "keyboard"
+  },
+  {
+    "id_product": 457,
+    "product_name": "X-Box Series X",
+    "price": 350,
+    "product_img": "457.jpg",
+    "type": "gameconsol"
+  },
+  {
+    "id_product": 123,
+    "product_name": "Ноутбук Lenovo",
+    "price": 450,
+    "product_img": "123.jpg",
+    "type": "notebook"
+  },
+  {
+    "id_product": 456,
+    "product_name": "Мышка Razer",
+    "price": 28,
+    "product_img": "456.jpg",
+    "type": "mouse"
+  },
+  {
+    "id_product": 455,
+    "product_name": "Мышка Bloody",
+    "price": 20,
+    "product_img": "455.jpg",
+    "type": "mouse"
+  },
+  {
+    "id_product": 187,
+    "product_name": "Наушники Razer",
+    "price": 55,
+    "product_img": "187.jpg",
+    "type": "headphones"
+  },
+  {
+    "id_product": 203,
+    "product_name": "Ноутбук Apple",
+    "price": 560,
+    "product_img": "203.jpg",
+    "type": "hotebook"
+  },
+  {
+    "id_product": 205,
+    "product_name": "Ноутбук Asus",
+    "price": 650,
+    "product_img": "205.jpg",
+    "type": "notebook"
+  },
+  {
+    "id_product": 156,
+    "product_name": "Наушники Bloody",
+    "price": 180,
+    "product_img": "156.jpg",
+    "type": "headphones"
+  },
+  {
+    "id_product": 11,
+    "product_name": "Смартфон Apple iPhone 11",
+    "price": 890,
+    "product_img": "11.jpg",
+    "type": "smartphone"
+  },
+  {
+    "id_product": 568,
+    "product_name": "Sony PlayStation 5",
+    "price": 1050,
+    "product_img": "568.jpg",
+    "type": "gameconsol"
+  },
+  {
+    "id_product": 566,
+    "product_name": "Sony PlayStation 3",
+    "price": 280,
+    "product_img": "566.jpg",
+    "type": "gameconsol"
+  },
+  {
+    "id_product": 458,
+    "product_name": "X-Box 360",
+    "price": 180,
+    "product_img": "458.jpg",
+    "type": "gameconsol"
+  },
+  {
+    "id_product": 122,
+    "product_name": "Клавиатура Bloody",
+    "price": 62,
+    "product_img": "122.jpg",
+    "type": "keyboard"
+  },
+  {
+    "id_product": 56,
+    "product_name": "Samsung Galaxy Z",
+    "price": 1010,
+    "product_img": "56.jpg",
+    "type": "smartphone"
+  },
+  {
+    "id_product": 34,
+    "product_name": "Xiaomi Redmi Note 9",
+    "price": 310,
+    "product_img": "34.jpg",
+    "type": "smartphone"
+  },
+  {
+    "id_product": 345,
+    "product_name": "Клавиатура Razer Ornata",
+    "price": 75,
+    "product_img": "345.jpg",
+    "type": "keyboard"
+  }
+
+]
