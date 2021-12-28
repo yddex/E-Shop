@@ -36,17 +36,17 @@
   },
   {
     "id_product": 187,
-    "product_name": "Наушники Razer",
-    "price": 55,
+    "product_name": "Ноутбук Honor Hunter",
+    "price":2170,
     "product_img": "187.jpg",
-    "type": "headphones"
+    "type": "notebook"
   },
   {
     "id_product": 203,
     "product_name": "Ноутбук Apple",
     "price": 560,
     "product_img": "203.jpg",
-    "type": "hotebook"
+    "type": "notebook"
   },
   {
     "id_product": 205,
@@ -57,10 +57,10 @@
   },
   {
     "id_product": 156,
-    "product_name": "Наушники Bloody",
-    "price": 180,
+    "product_name": "Ноутбук HP EliteBook",
+    "price": 1330,
     "product_img": "156.jpg",
-    "type": "headphones"
+    "type": "notebook"
   },
   {
     "id_product": 11,
@@ -117,6 +117,13 @@
     "price": 75,
     "product_img": "345.jpg",
     "type": "keyboard"
+  },
+  {
+    "id_product": 454,
+    "product_name": "Мышка Logitech G",
+    "price": 39,
+    "product_img": "454.jpg",
+    "type": "mouse"
   }
 
 ]

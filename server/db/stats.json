@@ -4,6 +4,41 @@
             "Date": "Dec 27, 2021 9:04 PM",
             "NameProduct": "X-Box Series X",
             "Move": "add"
+        },
+        {
+            "Date": "Dec 28, 2021 12:37 PM",
+            "NameProduct": "Клавиатура Razer",
+            "Move": "add"
+        },
+        {
+            "Date": "Dec 28, 2021 12:37 PM",
+            "NameProduct": "X-Box Series X",
+            "Move": "delete"
+        },
+        {
+            "Date": "Dec 28, 2021 12:37 PM",
+            "NameProduct": "Клавиатура Razer",
+            "Move": "delete"
+        },
+        {
+            "Date": "Dec 28, 2021 1:13 PM",
+            "NameProduct": "Ноутбук HP EliteBook",
+            "Move": "add"
+        },
+        {
+            "Date": "Dec 28, 2021 1:13 PM",
+            "NameProduct": "Ноутбук HP EliteBook",
+            "Move": "add"
+        },
+        {
+            "Date": "Dec 28, 2021 1:13 PM",
+            "NameProduct": "Ноутбук HP EliteBook",
+            "Move": "delete"
+        },
+        {
+            "Date": "Dec 28, 2021 1:13 PM",
+            "NameProduct": "Ноутбук HP EliteBook",
+            "Move": "delete"
         }
     ]
 }

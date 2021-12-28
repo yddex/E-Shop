@@ -1,7 +1,7 @@
 <template>
   <div class="products">
     <product
-      v-for="item of filtered"
+      v-for="item of filterSort"
       :key="item.id_product"
       :img="$root.imgCatalog + item.product_img"
       :product="item"
@@ -22,6 +22,21 @@ export default {
       products: [],
     };
   },
+  computed: {
+    filterSort(){
+      
+      return this.filtered.sort((a,b)=>{
+        if(a.price > b.price){
+          return -1;
+        }
+        if(a.price < b.price){
+          return 1;
+        }
+        return 0;
+      })
+    }
+
+  },
   mounted() {
     this.$parent.getJson(`${API}${this.catalogUrl}`).then((data) => {
       for (let item of data) {
@@ -31,7 +46,7 @@ export default {
     });
   },
   methods: {
-    filter(userSearch, type = "") {
+    filter(userSearch) {
       let regexp = new RegExp(userSearch, "i");
       this.filtered = this.products.filter((el) =>
         regexp.test(el.product_name)
@@ -49,7 +64,7 @@ export default {
   components: {
     product,
   },
-};
+}
 </script>
 
 <style>
